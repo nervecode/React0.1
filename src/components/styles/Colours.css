@@ -1,0 +1,121 @@
+.color-reviewer-container {
+  height: auto;
+  margin: 30px 0px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f7d4;
+}
+
+.color-rev-h1 {
+  color: #0f3f46;
+}
+
+.touch__paint {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  padding: 10px 20px;
+}
+
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  
+}
+
+.challenge-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 30px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #092834;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.options-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options-container li {
+  margin-bottom: 10px;
+}
+
+.options-container a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.options-container a:hover {
+  text-decoration: underline;
+}
+
+.color-sections-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.color-section {
+  flex: 1;
+  max-width: 30%;
+  margin: 20px 0;
+}
+
+.color-section h2 {
+  color: #0f3f46;
+}
+
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.color-info {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #0f3f46;
+}
+
+.color-name,
+.color-hex {
+  margin: 0;
+}

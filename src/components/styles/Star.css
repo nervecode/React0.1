@@ -1,0 +1,18 @@
+.star__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  background: #092834;
+  gap: 10rem;
+}
+.s__link {
+  color: #f0f7d4;
+}
+
+.s__link:hover {
+  color: #f0f7d4;
+  border-bottom: 2px solid #f0f7d4;
+  transition: 0.5s ease;
+}

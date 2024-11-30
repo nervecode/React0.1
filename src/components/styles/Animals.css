@@ -1,0 +1,45 @@
+/* src/styles/AnimalStyles.css */
+
+.animals-container {
+  height: 100vh;
+  text-align: center;
+  padding: 50px;
+  background: #f1eb90;
+  h1 {
+    color: #092834;
+  }
+}
+
+.animal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0px 0px 0px 2px #66b032;
+
+  p {
+    color: #0f3f46;
+  }
+}
+
+.animal-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.animal__link {
+  padding: 10px; 
+  line-height: ;
+}
+
+

@@ -1,0 +1,72 @@
+.smell-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1eb90;
+  position: relative;
+  overflow: hidden;
+}
+
+.flower {
+  font-size: 90px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.smell-message {
+  position: absolute;
+  font-size: 2rem;
+  top: 20%;
+  background-color: #66B032;
+  padding: 10px 20px;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.767);
+  animation: fadeInOut 3s ease;
+}
+
+.scent-particles {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.particle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: hsl(350, 46%, 54%);
+  border-radius: 50%;
+  animation: floatUp 3s infinite;
+  transform: translateX(-50%);
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -100px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -200px) scale(1.5);
+  }
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

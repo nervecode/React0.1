@@ -1,0 +1,9 @@
+.diamond__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background: #092834;
+    gap: 10rem;
+  }

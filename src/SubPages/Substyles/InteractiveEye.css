@@ -1,0 +1,38 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1eb90;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensures the button is above other content */
+}
+
+.eye-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eyes {
+  display: flex;
+  gap: 50px; /* Increase space between the two eyes for better appearance */
+}
+
+.eye {
+  width: 500px; /* Increased from 100px */
+  height: 500px; /* Increased from 100px */
+}

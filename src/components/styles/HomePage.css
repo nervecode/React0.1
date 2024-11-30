@@ -1,0 +1,9 @@
+.home__page {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  background: #F0F7D4;
+  justify-content: center;
+  align-items: center;
+}
+

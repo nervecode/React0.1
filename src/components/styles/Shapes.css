@@ -1,0 +1,15 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f7d4;
+
+  h1 {
+    color: #b2d732;
+  }
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

@@ -1,0 +1,59 @@
+/* InteractiveTaste.css */
+.taste-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1eb90;
+  box-sizing: border-box;
+}
+.taste-title {
+  color: #092834;
+}
+.back-btn {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.food-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+.food-item {
+  background-color: #66b032;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.food-item:hover {
+  background-color: #092834;
+}
+
+.taste-message {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  background-color: #b2d732;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 5s ease;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
