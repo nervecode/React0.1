@@ -1,10 +1,14 @@
 {
+  "homepage": "https://github.com/nervecode/React0.1.git",
   "name": "project-d",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
