@@ -21,7 +21,7 @@ function InteractiveTaste() {
 
   return (
     <div className="taste-container">
-        <button onClick={() => NavTouch("/star/senses")} className="back-btn">
+        <button onClick={() => NavTouch("/star")} className="back-btn">
         Go Back
       </button>
       <h1 className="taste-title">Interactive Taste Experience</h1>

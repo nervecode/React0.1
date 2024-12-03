@@ -12,7 +12,7 @@ function InteractiveEar() {
 
   return (
     <div className="ear-container">
-      <button onClick={() => NavHear("/star/senses")} className="back-btn">
+      <button onClick={() => NavHear("/star")} className="back-btn">
         Go Back
       </button>
       <div>

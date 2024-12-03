@@ -4,14 +4,17 @@ import "./GameStyles/ColorGuessingGame.css";
 
 const colors = [
   { name: "Red", color: "rgb(255, 0, 0)" },
-  { name: "Green", color: "rgb(0, 255, 0)" },
-  { name: "Blue", color: "rgb(0, 0, 255)" },
   { name: "Yellow", color: "rgb(255, 255, 0)" },
-  { name: "Magenta", color: "rgb(255, 0, 255)" },
-  { name: "Cyan", color: "rgb(0, 255, 255)" },
+  { name: "Blue", color: "rgb(0, 0, 255)" },
   { name: "Orange", color: "rgb(255, 165, 0)" },
-  { name: "Purple", color: "rgb(128, 0, 128)" },
-  { name: "Olive", color: "rgb(128, 128, 0)" },
+  { name: "Green", color: "rgb(0, 128, 0)" },
+  { name: "Violet", color: "rgb(127, 0, 255)" },
+  { name: "Red-orange", color: "rgb(255, 165, 0)" },
+  { name: "Yellow-orange", color: "rgb(255, 174, 66)" },
+  { name: "Yellow-green", color: "rgb(154, 205, 50)" },
+  { name: "Blue-green", color: "rgb(13, 152, 186)" },
+  { name: "Blue-violet", color: "rgb(138, 43, 226)" },
+  { name: "Red-violet", color: "rgb(149, 53, 83)" },
 ];
 
 function ColorGuessingGame() {

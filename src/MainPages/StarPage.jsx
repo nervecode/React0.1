@@ -10,7 +10,7 @@ const StarPage = () => {
         </Link>
         {/* <Link to="/star/senses" className="s__link">Senses</Link>*/}
         <Link to="/star/colours" className="s__link">
-          Colours
+          Colors
         </Link>
         <Link to="/star/shapes" className="s__link">
           Shapes

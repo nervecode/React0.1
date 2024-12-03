@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./Substyles/InteractiveSmell.css";
 
 function InteractiveSmell() {
-    const NavSmell = useNavigate();
+  const NavSmell = useNavigate();
 
   const [isSmelled, setIsSmelled] = useState(false);
 
@@ -14,7 +14,7 @@ function InteractiveSmell() {
 
   return (
     <div className="smell-container">
-        <button onClick={() => NavSmell("/star/senses")} className="back-btn">
+      <button onClick={() => NavSmell("/star")} className="back-btn">
         Go Back
       </button>
       <div className="flower" onClick={handleSmell}>

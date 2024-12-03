@@ -5,23 +5,24 @@ import "./GameStyles/ColorCard.css";
 // Define color sets for each level
 const primaryColors = [
   "rgb(255, 0, 0)", // Red
-  "rgb(0, 255, 0)", // Yellow
+  "rgb(255, 255, 0)", // Yellow
   "rgb(0, 0, 255)", // Blue
 ];
 
 const secondaryColors = [
-  "rgb(255, 255, 0)", // Yellow + blue = green
-  "rgb(255, 0, 255)", // Yellow + red = orange
-  "rgb(0, 255, 255)", // Blue + red = violet
+  "rgb(255, 165, 0)", // Orange
+  "rgb(0, 128, 0)", // Green
+  "rgb(127, 0, 255)", // Violet
 ];
 
 const tertiaryColors = [
-  "rgb(255, 165, 0)", // red + orange = red-orane(Vermillion)
-  "rgb(128, 0, 128)", // blue + purple = violet
-  "rgb(0, 128, 0)", // blue + green = blue-green(Teal)
-  // yellow + green = yellow-green(Chartreuse)
-  // red + purple = red-purple(Magenta)
-  // yellow + orange = yellow-orange(Amber)
+  "rgb(255, 165, 0)", //Red-orange
+  "rgb(255, 174, 66)", //Yellow-orange
+  "rgb(154, 205, 50)", //Yellow-green
+  "rgb(13, 152, 186)", //Blue-green
+  "rgb(138, 43, 226 )", //Blue-violet
+  "rgb(149, 53, 83)", //Red-violet
+  
 ];
 
 function ColorCard() {

@@ -57,7 +57,7 @@ function InteractiveTouch() {
 
   return (
     <div className="touch-container" ref={containerRef}>
-      <button onClick={() => NavTouch("/star/senses")} className="back-btn">
+      <button onClick={() => NavTouch("/star")} className="back-btn">
         Go Back
       </button>
       {circles.map((circle, index) => (

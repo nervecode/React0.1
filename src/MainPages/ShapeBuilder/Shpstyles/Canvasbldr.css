@@ -49,3 +49,13 @@
   padding: 10px 20px;
   cursor: pointer;
 } */
+
+.dropped-shape.rectangle {
+  width: 150px; /* Keep this size for dropped rectangle */
+  height: 65px;
+}
+
+.palette .shape.rectangle {
+  width: 95px; /* Smaller size for palette rectangle */
+  height: 50px;
+}

@@ -14,20 +14,20 @@ const colors = [
   {
     label: "Secondary Colors",
     colors: [
-      { name: "Green", hex: "#008000" },
       { name: "Orange", hex: "#FFA500" },
-      { name: "Purple", hex: "#800080" },
+      { name: "Green", hex: "#008000" },
+      { name: "Violet", hex: "#7F00FF" },
     ],
   },
   {
     label: "Tertiary Colors",
     colors: [
-      { name: "Blue-Green (Teal)", hex: "#008080" },
-      { name: "Yellow-Green (Chartreuse)", hex: "#9ACD32" },
-      { name: "Red-Orange (Vermilion)", hex: "#FF5349" },
-      { name: "Red-Purple (Magenta)", hex: "#E40078" },
-      { name: "Blue-Purple (Violet)", hex: "#8A2BE2" },
-      { name: "Yellow-Orange (Amber)", hex: "#FFAE42" },
+      { name: "Red-orange", hex: "#FF5349" },
+      { name: "Yellow-orange", hex: "#FFAE42" },
+      { name: "Yellow-green", hex: "#9ACD32" },
+      { name: "Blue-green", hex: "#0D98BA" },
+      { name: "Blue-violet", hex: "#8A2BE2" },
+      { name: "Red-violet", hex: "#C71585 " },
     ],
   },
 ];

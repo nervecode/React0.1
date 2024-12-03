@@ -17,7 +17,7 @@ function InteractiveEye() {
 
   return (
     <div className="page-container">
-      <button onClick={() => navigate("/star/senses")} className="back-btn">
+      <button onClick={() => navigate("/star")} className="back-btn">
         Go Back
       </button>
       <div className="eye-container" onMouseMove={handleMouseMove}>

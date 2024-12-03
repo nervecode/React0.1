@@ -5,6 +5,7 @@ const shapes = [
   { id: "circle", type: "circle", color: "#FF6347" },
   { id: "square", type: "square", color: "#1E90FF" },
   { id: "triangle", type: "triangle", color: "#32CD32" },
+  { id: "rectangle", type: "rectangle", color: "#FFD700" }
   // Add more shapes as needed
 ];
 
