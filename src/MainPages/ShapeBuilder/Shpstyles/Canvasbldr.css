@@ -51,11 +51,11 @@
 } */
 
 .dropped-shape.rectangle {
-  width: 150px; /* Keep this size for dropped rectangle */
-  height: 65px;
+  width: 115px; /* Keep this size for dropped rectangle */
+  height: 70px;
 }
 
 .palette .shape.rectangle {
-  width: 95px; /* Smaller size for palette rectangle */
-  height: 50px;
+  width: 115px; /* Smaller size for palette rectangle */
+  height: 70px;
 }
